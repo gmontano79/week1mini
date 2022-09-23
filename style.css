@@ -1,0 +1,104 @@
++ {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY GLOBAL */
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  background-color: grey;
+  color: white;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* NAVIGATION SECTION */
+
+nav {
+  background-color: #494a4b;
+  padding: 10px;
+  color: white;
+}
+ul {
+  display: inline;
+}
+.ul-nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  color: white;
+}
+li {
+  display: inline;
+}
+a {
+  color: white;
+}
+
+/* BIO SECTION */
+
+.bio {
+  background-color: grey;
+  text-align: center;
+  border-top: 10px solid rgb(4, 169, 245);
+}
+img {
+  height: 300px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  border-top: 5px solid rgb(4, 169, 245);
+  background-color: rgb(77, 77, 77);
+  padding: 30px;
+}
+.contact h2 {
+  text-align: center;
+}
+
+form {
+  border: 5px solid grey;
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 30px;
+}
+ul {
+  display: block;
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid rgb(4, 169, 245);
+}
+
+/* FOOTER SECTION */
+
+footer {
+  /* position: absolute; */
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 5px solid rgb(4, 169, 245);
+  padding: 30px;
+}
